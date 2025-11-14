@@ -18,6 +18,14 @@ header {
     justify-content: space-between;
 }
 
+#openNavigator {
+    display: block;
+}
+
+#openNavigator p {
+    display: none;
+}
+
 footer {
     background-color: #84CCFF;
     text-align: center;
