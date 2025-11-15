@@ -1,14 +1,12 @@
 header {
     background-color: #84CCFF;
-    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 img {
-    height: 40px;
-    width: 40px;
+    max-width: 100px;
 }
 
 button {
@@ -17,6 +15,7 @@ button {
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
+    margin-right: 10px;
     cursor: pointer;
 }
 

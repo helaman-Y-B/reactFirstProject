@@ -9,21 +9,3 @@ body {
     font-family: Arial, sans-serif;
     background-color: #EFF9FF;
 }
-
-#welcomeBunner {
-    background-color: #BCEBFF;
-    padding: 20px;
-    text-align: center;
-}
-
-#imgBunner {
-    text-align: center;
-    margin: 20px 0;
-}
-
-#infos {
-    background-color: #BCEBFF;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-}

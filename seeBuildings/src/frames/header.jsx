@@ -1,4 +1,5 @@
 import "../public/css/header.css";
+import logo from "../public/img/seeBuildingLogo.png";
 import { useState } from 'react';
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
     return (
         <>
             <header>
-                <img src={null} alt="SeeBuildings Logo" />
+                <img src={logo} alt="SeeBuildings Logo" />
                 <div>
                     <button
                         type="button"
