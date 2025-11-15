@@ -1,0 +1,42 @@
+header {
+    background-color: #84CCFF;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+button {
+    background-color: #0284C7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Hide or show the whole navigator container by id */
+#openNavigator {
+    display: none;
+}
+
+#closeNavigator {
+    display: block;
+}
+
+ul {
+    background-color: #0284C7;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
