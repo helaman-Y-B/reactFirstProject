@@ -1,6 +1,7 @@
 import "../public/css/header.css";
 import logo from "../public/img/seeBuildingLogo.png";
-import { useState } from 'react';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
     /**
@@ -22,11 +23,11 @@ function Header() {
                     </button>
                 </div>
             </header>
-            <ul id={openNav ? "closeNavigator" : "openNavigator"}>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-            </ul>
+                <ul id={openNav ? "closeNavigator" : "openNavigator"}>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/see-buildings">See Buildings</Link></li>
+                    <li><a href="#infos">Infos</a></li>
+                </ul>
         </>
     );
 }
