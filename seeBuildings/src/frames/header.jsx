@@ -1,5 +1,7 @@
 import "../public/css/header.css";
 import logo from "../public/img/seeBuildingLogo.png";
+import openNavigationImg from "../public/img/openNavigation.png";
+import closeNavigationImg from "../public/img/closeNavigation.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -19,7 +21,7 @@ function Header() {
                         aria-expanded={openNav}
                         onClick={() => setOpenNav(v => !v)}
                     >
-                        {openNav ? "Close Navigator" : "Open Navigator"}
+                        <img id="navigationImg" src={openNav ? closeNavigationImg : openNavigationImg} alt="Navigation bar img" />
                     </button>
                 </div>
             </header>

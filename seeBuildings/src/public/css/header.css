@@ -10,11 +10,11 @@ img {
 }
 
 button {
-    background-color: #0284C7;
+    background-color: transparent;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 5px 5px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -27,6 +27,11 @@ button {
 #closeNavigator {
     display: block;
 }
+
+#navigationImg {
+    width: 40px;
+    height: 40px;
+} 
 
 ul {
     background-color: #0284C7;
